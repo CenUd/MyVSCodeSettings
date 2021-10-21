@@ -1,0 +1,105 @@
+{
+    ////////////////////////////////
+    // VSCode Editor Settings
+    ////////////////////////////////
+    "editor.minimap.enabled": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "files.autoSave": "off",
+    "workbench.iconTheme": "vs-seti",
+    "files.trimTrailingWhitespace": true,
+    "editor.autoIndent": "brackets",
+    // Current line highlight
+    "editor.renderLineHighlight": "all",
+    "workbench.colorCustomizations": {
+        // "editor.lineHighlightBackground": "#76a0cfb4",
+        "editor.lineHighlightBorder": "#5d8cb8"
+    },
+    // Encoding and fonts
+    "editor.fontFamily": "fixsys, monospace, Consolas, 'Courier New'",
+    "files.encoding": "shiftjis",
+    // Vertical ruler
+    "editor.rulers": [
+        {
+            "column": 100,
+            "color": "#5d8cb8"
+        }
+    ],
+
+    ////////////////////////////////
+    // Extension Settings - Vim
+    ////////////////////////////////
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-b>": false,
+    },
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j","j"],
+            "after": ["<Esc>"]
+        },
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+        },
+        // Tab
+        {
+            "before": ["s","u"],
+            "after": ["g", "T"]
+        },
+        {
+            "before": ["s","o"],
+            "after": ["g", "t"]
+        },
+        // Split editor
+        {
+            "before": ["s","l"],
+            "after": ["<C-w>", "<Right>"]
+        },
+        {
+            "before": ["s","k"],
+            "after": ["<C-w>", "<Up>"]
+        },
+        {
+            "before": ["s","j"],
+            "after": ["<C-w>", "<Down>"]
+        },
+        {
+            "before": ["s","h"],
+            "after": ["<C-w>", "<Left>"]
+        },
+    ],
+    "vim.leader": "<space>",
+
+    ////////////////////////////////
+    // Extension Settings - Indent Rainbow
+    ////////////////////////////////
+    "indentRainbow.ignoreErrorLanguages" : ["*"],
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.10)",
+        "rgba(127,255,127,0.10)",
+        "rgba(255,127,255,0.07)",
+        "rgba(79,236,236,0.07)"
+    ],
+
+    ////////////////////////////////
+    // Extension Settings - CodeSnap
+    ////////////////////////////////
+    "codesnap.containerPadding": "0em",
+    "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 4px 4px",
+    "codesnap.shutterAction": "copy",
+    "codesnap.showWindowControls": false,
+    "codesnap.backgroundColor": "#0f0f0f",
+    "codesnap.realLineNumbers": true,
+    "codesnap.transparentBackground": true,
+    "codesnap.showWindowTitle": true,
+}

@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "alt+oem_5",
+        "command": "workbench.action.splitEditorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "revealFileInOS",
+        "when": "editorTextFocus"
+    }
+]
